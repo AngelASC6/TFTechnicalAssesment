@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Angel Vasquez</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="mainPage">
+            <div id="photoDiv"></div>
+            <button id="startButton">Start</button>
+        </div>
+        <div id="aboutPage">
+            <div class="menuBar">
+                <h3 class="menuItem" style="color: grey;" onclick="clickFunction0()">About Me</h3>
+                <h3 class="menuItem" onclick="clickFunction1()">Photos</h3>
+                <h3 class="menuItem" onclick="clickFunction2()">Contact me</h3>
+            </div>
+            <div class="content">
+                <img id="aboutImg" src="code_image.JPG" alt="">
+                <div id="aboutText"><p>Hi! My name is Angel Vasquez, a Junior at the Church Farm School. I'm passionate about Photography and I plan on majoring in Computer Programming in college. I live in the Bronx, New York City, and attend an all boys boarding school in Pennsylvania. I always enjoy a challenge and I love seeing the results of my hard work.</p></div>
+            </div>
+        </div>
+        <div id="photoPage">
+            <div class="menuBar">
+                <h3 class="menuItem" onclick="clickFunction0()">About Me</h3>
+                <h3 class="menuItem" style="color: grey;" onclick="clickFunction1()">Photos</h3>
+                <h3 class="menuItem" onclick="clickFunction2()">Contact me</h3>
+            </div>
+            <!-- Could be automated with a for loop which makes ierates through an array containing each image name -->
+            <div id="photoContent">
+                <div id="photoHeader">
+                    <h1>Angel Vasquez</h1>
+                    <p>A hobby that I am very passionate about is photography, here are a few of the photos I am most pround of:</p>
+                </div>
+                <div id="photoContainer">                    
+                    <div class="photoCard">
+                        <img src="images/rain.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                        <img src="images/DSC_0448.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                        <img src="images/DSC_0467.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                        <img src="images/DSC_0475.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                        <img src="images/DSC_0481.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                            <img src="images/DSC_0573.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                            <img src="images/DSC_0037.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                            <img src="images/DSC_1027.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                            <img src="images/DSC_1065.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                            <img src="images/DSC_1084.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                            <img src="images/DSC_1201.jpg" alt="">
+                    </div>
+                    <div class="photoCard">
+                            <img src="images/Enhance.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="contactPage">
+            <div class="menuBar">
+                <h3 class="menuItem" onclick="clickFunction0()">About Me</h3>
+                <h3 class="menuItem" onclick="clickFunction1()">Photos</h3>
+                <h3 class="menuItem" style="color: grey;" onclick="clickFunction2()">Contact me</h3>
+            </div>
+            <div class="content" id="contactContent">
+                <div id="contactInfo">
+                    <h2 style="text-align: center;">Do you need to Contact me? The best way to reach out to me is by emailing me at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=angelmichaelvasquez@gmail.com" target="_blank"> angelmichaelvasquez@gmail.com</a></h2>
+                    <h2 style="text-align: center; font-size:50px;">Or</h2>
+                    <h2 style="text-align: center">By contacting me on LinkedIn</h2>
+                    <a href="https://www.linkedin.com/in/angel-vasquez-a09988195/" target="_blank"><img src="linkedIn_Logo.png" alt="LinkedIn Logo"></a>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
